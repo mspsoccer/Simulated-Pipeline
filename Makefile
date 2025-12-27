@@ -2,7 +2,6 @@
 
 CC = gcc
 CFLAGS = -g -ansi -pedantic-errors -Wall -Werror
-# On Mac, you will need to replace -ansi with -std=c90
 
 all:  asm sim sim-pipe
 
