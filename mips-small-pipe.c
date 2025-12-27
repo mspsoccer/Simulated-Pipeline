@@ -2,8 +2,6 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
-
-/* TEST SAVED.*/
 /************************************************************/
 int main(int argc, char *argv[]) {
   short i;
@@ -54,8 +52,6 @@ int main(int argc, char *argv[]) {
 
   return 0;
 }
-/************************************************************/
-/* Need back branch check******/
 /************************************************************/
 void run(Pstate state) {
   state_t new;
@@ -167,7 +163,7 @@ void run(Pstate state) {
     } else if (opID == ADDI_OP || opID == LW_OP || opID == BEQZ_OP) {
       rsID = field_r1(state->IDEX.instr);
     }
-    /* Destregs of the 3 instr*/
+    /* Destination regs of the 3 instr*/
     destEXMEM = -1;
     opEXFwd = opcode(state->EXMEM.instr);
     if (opEXFwd == REG_REG_OP) {
