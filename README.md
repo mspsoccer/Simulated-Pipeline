@@ -46,7 +46,7 @@ Every cycle prints the full pipeline state:
 
 ```
 Project Structure
-.
+
 ├── small-pipe.c            # Full MIPS pipeline simulator implementation
 ├── mips-small-pipe.h       # Instruction encoding macros & pipeline structs
 ├── Makefile                # Build instructions
