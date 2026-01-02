@@ -44,13 +44,14 @@ Every cycle prints the full pipeline state:
   Pipeline registers (IFID, IDEX, EXMEM, MEMWB, WBEND)
   ALU results & write-back values
 
-
+```
 Project Structure
 .
 ├── small-pipe.c            # Full MIPS pipeline simulator implementation
 ├── mips-small-pipe.h       # Instruction encoding macros & pipeline structs
 ├── Makefile                # Build instructions
-└──  public-tests/           # Instructor-provided test inputs & expected output             
+└──  public-tests/           # Instructor-provided test inputs & expected output
+```          
 
 Building the Simulator
 
