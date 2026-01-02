@@ -4,15 +4,15 @@ Overview
 This project implements a five-stage pipelined MIPS processor simulator.
 The simulator models all major components of a pipelined CPU, including:
 
-Instruction Fetch (IF)
+## Instruction Fetch (IF)
 
-Instruction Decode (ID)
+## Instruction Decode (ID)
 
-Execute (EX)
+## Execute (EX)
 
-Memory Access (MEM)
+## Memory Access (MEM)
 
-Write Back (WB)
+## Write Back (WB)
 
 The model supports cycle-accurate execution, prints detailed pipeline state each cycle, and correctly handles complex interactions between instructions.
 
