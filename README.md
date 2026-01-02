@@ -57,11 +57,14 @@ Building the Simulator
 
 Run the provided Makefile:
 
+```
 make
+```
 
 This produces an executable:
-
+```
 ./small-pipe <machine-code-file>
+```
 
 
 
@@ -69,6 +72,7 @@ Learning Outcomes
 
 Through building this simulator, I gained hands-on experience in:
 
+```
 CPU microarchitecture & pipeline design
 
 Debugging systems-level C code
@@ -78,6 +82,7 @@ Hazard mitigation strategies (forwarding, stalling, flushing)
 Control-flow prediction
 
 Cycle-accurate pipeline modeling
+```
 
 This project significantly deepened my understanding of how real processors execute instructions efficiently.
 
